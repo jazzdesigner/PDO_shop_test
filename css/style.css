@@ -1,0 +1,427 @@
+/**
+* Estils per a la botiga
+* @author Jaime Zamorano
+*/
+
+/*--------------------------
+HEADER
+--------------------------*/
+
+header {
+    background: url("../img/top_bg.png") repeat center top;
+    display: block;
+    height: 107px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#header {
+    width: 900px;
+    margin: auto;
+}
+
+#header_logo {
+    background: url(../img/logo.png) no-repeat;
+    display: block;
+    float: left;
+    height: 98px;
+    margin-left: 83px;
+    width: 191px;
+}
+
+.header_login {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 34px 0 0 714px;
+}
+
+.header_login a {
+    color: #ad037b;
+    text-decoration: none;
+}
+
+#categories {
+    display: block;
+    float: left;
+    margin: 30px 566px;
+    position: absolute;
+    width: 60px;
+}
+
+#categories a {
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*--------------------------
+BODY
+--------------------------*/
+
+body {
+    background: url(../img/back_figa_bg.png) fixed;
+    background-size: cover;
+    color: #391c51;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+container {
+    background: url("../img/main_bg.png") repeat center top fixed;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
+    display: block;
+    margin: 98px auto 0;
+    min-height: 544px;
+    padding: 31px 45px;
+    position: relative;
+    width: 810px;
+}
+
+h1 {
+    color: #424242;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 0 15px 56px;
+}
+
+h2 {
+    color: #AD037B;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 a {
+    color: #ad037b;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #391c51;
+}
+
+input {
+    margin: 2px;
+}
+
+.enrera {
+    color: #ad037b;
+    font-size: 13px;
+    margin: -18px 7px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.enrera:hover {
+    color: #391c51;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 122px;
+    margin: auto auto 20px;
+    padding: 23px 21px;
+}
+
+.product p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.product img {
+    background: #eee;
+    float: left;
+    width: 165px;
+    height: 121px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.product .info {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 7px 0;
+    vertical-align: top;
+    width: 440px;
+}
+
+.product h5 {
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.product .extended_info {
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+    padding: 21px 0 0;
+    vertical-align: top;
+    width: 120px;
+}
+
+.product .extended_info p {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.product .extended_info p span {
+    color: #ad037b;
+}
+
+.product .buttons {
+    float: left;
+    margin: -12px 0 0 708px;
+    position: absolute;
+}
+
+.add {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 139px;
+}
+
+.add a {
+    color: #424242;
+    display: block;
+    float: right;
+    margin: 4px 0 0 10px;
+    text-decoration: none;
+}
+
+/*--------------------------
+Botons
+--------------------------*/
+
+button {
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 23px;
+    width: 20px;
+}
+
+button.edit {
+    background: url("../img/buttons.png") no-repeat 0 -52px;
+}
+
+button.edit:hover {
+    background: url("../img/buttons.png") no-repeat -26px -52px;
+}
+
+button.edit:active {
+    background: url("../img/buttons.png") no-repeat -52px -52px;
+}
+
+button.remove {
+    background: url("../img/buttons.png") no-repeat 0 0px;
+}
+
+button.remove:hover {
+    background: url("../img/buttons.png") no-repeat -26px 0px;
+}
+
+button.remove:active {
+    background: url("../img/buttons.png") no-repeat -52px -0px;
+}
+
+button.afegir {
+    background: url("../img/buttons.png") no-repeat 0px -26px;
+}
+
+button.afegir:hover {
+    background: url("../img/buttons.png") no-repeat -26px -26px;
+}
+
+button.afegir:active {
+    background: url("../img/buttons.png") no-repeat -52px -26px;
+}
+
+button.buy {
+    background: url("../img/buttons.png") no-repeat 0px -77px;
+}
+
+button.buy:hover {
+    background: url("../img/buttons.png") no-repeat -26px -77px;
+}
+
+button.buy:active {
+    background: url("../img/buttons.png") no-repeat -52px -77px;
+}
+
+/*--------------------------
+Menus
+--------------------------*/
+
+form.cerca {
+    
+}
+
+form.cerca input {
+    margin: -35px 285px;
+    position: absolute;
+}
+
+.menuCerca {
+    color: #AD037B;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    left: 444px;
+    padding-left: 15px;
+    position: relative;
+    top: -32px;
+}
+
+.menuCerca form {
+    display: inline;
+    height: 20px;
+}
+
+
+/*--------------------------
+Estils categoria
+--------------------------*/
+.categoria {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 11px 10px;
+    min-height: 122px;
+    padding: 25px 5px;
+    text-align: center;
+    width: 29%;
+    word-wrap: break-word;
+}
+
+.categoria .buttons {
+    float: left;
+    margin: -16px 0 0 210px;
+    position: static;
+}
+
+.categoria .info {
+    display: inline-block;
+    padding: 7px 23px;
+    vertical-align: top;
+}
+
+.categoria p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*--------------------------
+Carret de la compra
+--------------------------*/
+
+#cart {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    margin: 70px 0 0 663px;
+    padding: 10px;
+    position: fixed;
+    width: 170px;
+    z-index: 999999;
+}
+
+#cart label {
+    float: right;
+    font-size: 13px;
+}
+
+#cart label a {
+    font-size: 12px;
+    color: #ad037b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*-------------------------
+MOSTRAR PRODUCTE
+--------------------------*/
+
+.mostrarProducte .product {
+    height: auto;
+}
+
+.mostrarProducte .product img {
+    float: left;
+    height: 363px;
+    width: 495px;
+    cursor: auto;
+}
+
+.mostrarProducte .product .info {
+    display: inline-block;
+    margin: 20px 0;
+    min-height: 310px;
+    padding: 7px 0;
+    vertical-align: top;
+    width: 260px;
+}
+
+.mostrarProducte .product .extended_info {
+    float: left;
+    margin: 120px 0 0;
+    padding: 0;
+    width: auto;
+}
+
+
+/*--------------------------
+FOOTER
+--------------------------*/
+
+footer {
+    background: #222;
+    color: #fff;
+    width: 100%;
+    min-height: 120px;
+}
+
+footer .container {
+    padding: 30px 20px;
+    width: 860px;
+    margin: auto;
+}
+
+footer .container .autor {
+    font-size: 12px;
+    padding: 0 24px;
+}
+
+footer hr {
+    background: #fff;
+    border: medium none;
+    margin: 5px 0;
+    width: 175px;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+footer .logo {
+    background: url("../img/logo_footer.png") no-repeat;
+    display: block;
+    float: right;
+    height: 43px;
+    width: 66px;
+    margin: -38px 24px;
+}
